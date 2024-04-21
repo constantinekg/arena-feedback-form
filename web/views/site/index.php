@@ -98,7 +98,7 @@ $this->title = 'Arena обратная связь';
     <label class="control-label" for="reCaptcha">Проверка на робота</label>
         <?= \himiklab\yii2\recaptcha\ReCaptcha2::widget([
             'name' => 'reCaptcha',
-            'siteKey' => '6LcYe8gdAAAAAFdS01DNvlHybzu16EZkvl2jv52M', // unnecessary is reCaptcha component was set up
+            'siteKey' => 'GOOGLE_SITE_KEY_V2', // unnecessary is reCaptcha component was set up
             'widgetOptions' => ['class' => 'col-sm-offset-3'],
         ])
         ?>
